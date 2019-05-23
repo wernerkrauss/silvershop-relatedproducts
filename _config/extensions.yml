@@ -1,0 +1,7 @@
+---
+Name: Module-extensions
+After: core/config#shopconfig
+---
+SilverShop\Page\Product:
+  extensions:
+    - AntonyThorpe\SilverShopRelatedProducts\HasRelatedProducts

@@ -4,8 +4,7 @@
 	"type": "silverstripe-vendormodule",
 	"keywords": ["SilverStripe", "SilverShop", "related products"],
 	"require": {
-		"silvershop/core": "^3.0.0@stable",
-        "symbiote/silverstripe-gridfieldextensions": "^3.2.1"
+		"silvershop/core": "^3.0.4@stable"
 	},
 	"autoload": {
 		"psr-4": {

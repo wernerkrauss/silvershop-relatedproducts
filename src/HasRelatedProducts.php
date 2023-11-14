@@ -73,8 +73,8 @@ class HasRelatedProducts extends DataExtension
 
             // Add reorder capabilities when more than two items
             if ($this->owner->RelatedProductsRelation()->count() > 1) {
-                $relatedConfig->addComponent(GridFieldOrderableRows::create('RelatedOrder')/*->setRepublishLiveRecords(true)*/);
-                // @todo uncomment post symbiote/silverstripe-gridfieldextensions:3.2.1
+                $relatedConfig->addComponent(GridFieldOrderableRows::create('RelatedOrder')->setRepublishLiveRecords(true));
+                
             }
         }
     }
